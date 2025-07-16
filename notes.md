@@ -1,3 +1,6 @@
+# 强化学习算法类
+### PPO分为PPOV1和PPOV2，V1通过Clipping，控制策略更新的幅度，避免过大的策略变化，保证训练的稳定性。V2通过动态调整KL散度的惩罚系数，控制策略更新的幅度。我现在做业务用的V1，算得比V2更快一些。
+
 # 综述类
 ## DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP
 ### https://arxiv.org/abs/2506.18096 
@@ -19,4 +22,4 @@ DR Agents 被定义为具备动态推理、自适应规划、多轮外部数据�
 
 最大化自我进化：通过动态生成、优化和复用MCPs自主扩展能力。MCPs是一种标准化协议，允许代理按需创建工具并管理环境。
 
-我得知道mcp是什么
+我得知道mcp是什么、GAIA是什么benchmark
